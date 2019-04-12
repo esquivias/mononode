@@ -1,0 +1,6 @@
+*
+!.gitignore
+!build.sh
+!dockerfile
+!license
+!readme.md
