@@ -8,6 +8,4 @@ RUN apt-get update -y && apt-get upgrade
 RUN apt-get install -y mono-complete
 RUN curl -sL https://deb.nodesource.com/setup_11.x | bash -
 RUN apt-get install -y nodejs
-VOLUME ["/workdirectory"]
-WORKDIR /workdirectory
-ENTRYPOINT /bin/bash
+VOLUME /home
